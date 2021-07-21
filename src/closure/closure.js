@@ -7,6 +7,7 @@ const moneyBox = (coins) => {
 moneyBox(5);
 moneyBox(10);
 
+/* Función con estructura de Closure */
 const monetBox = () => {
     var saveCoins = 0;
     const countCoins = (coins) => {
